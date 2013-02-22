@@ -91,9 +91,9 @@
     selectedIndexPath = [NSString stringWithFormat:@"Cell %d was selected",[indexPath row]];
     humanText = [NSString stringWithFormat:@"test %d",[indexPath row]];
     
-   
+     
         
-        // 1) Get the latest loan
+        // 1) Get the latest loan....
         NSDictionary* loan = [latestLoan objectAtIndex:indexPath.row];
         
         // 2) Get the funded amount and loan amount
